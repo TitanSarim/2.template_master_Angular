@@ -4,7 +4,8 @@ import { ModelService } from 'src/app/services/model.service';
 @Component({
   selector: 'app-modal',
   templateUrl: './modal.component.html',
-  styleUrls: ['./modal.component.css']
+  styleUrls: ['./modal.component.css'],
+  //providers: [ModelService]
 })
 export class ModalComponent implements OnInit{
 
